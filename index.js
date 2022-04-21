@@ -25,7 +25,7 @@ const Anime = mongoose.model("Anime", animeSchema);
 
 // Routes
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World" });
+  res.json({ name: "Anime API", version: "0.0.1" });
 });
 
 // Start server
